@@ -307,7 +307,7 @@ if ($recherche != "") {
 
     <!-- Header -->
     <div class="header">
-        <h1>📦 Suivi de Colis</h1>
+        <h1> Suivi de Colis</h1>
         <p>Agence de Transport — Gestion des colis</p>
     </div>
 
@@ -315,7 +315,7 @@ if ($recherche != "") {
 
         <!-- Formulaire d'ajout -->
         <div class="form-card">
-            <div class="card-header">➕ Ajouter un Colis</div>
+            <div class="card-header"> Ajouter un Colis</div>
             <div class="card-body">
                 <form method="post">
                     <div class="form-group">
@@ -349,13 +349,13 @@ if ($recherche != "") {
 
         <!-- Liste des colis -->
         <div class="liste-card">
-            <div class="card-header">📋 Liste des Colis</div>
+            <div class="card-header"> Liste des Colis</div>
 
             <!-- Barre de recherche -->
             <form method="get">
                 <div class="search-bar">
                     <input type="text" name="recherche"
-                           placeholder="🔍 Rechercher par numéro ou téléphone..."
+                           placeholder=" Rechercher par numéro ou téléphone..."
                            value="<?= $recherche ?>">
                     <button type="submit" class="btn-search">Rechercher</button>
                 </div>
